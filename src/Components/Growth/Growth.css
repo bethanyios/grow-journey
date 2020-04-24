@@ -1,0 +1,8 @@
+.plant-name {
+  display: flex;
+  justify-content: center;
+  margin-top: 5vh;
+  font-size: 8vh;
+  font-family: 'Marmelad', sans-serif;
+
+}

@@ -23,7 +23,7 @@ const Navigate = () => {
     </section>
       <Link to="/growth" className="buttong">Growth</Link>
       <Link to="/care" className="buttonc">Care</Link>
-      <Link to="/care" className="buttonw">Wish List</Link>
+    
     </>
   )
 };

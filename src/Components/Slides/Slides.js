@@ -52,7 +52,7 @@ const zoomOutProperties = {
   arrows: true
 }
 
-const Slide1 = () => {
+const Slideshow = () => {
     return (
       <section className="slide-container">
       <section className="plant-name">
@@ -76,4 +76,4 @@ const Slide1 = () => {
     )
 }
 
-export default Slide1;
+export default Slideshow;

@@ -15,7 +15,7 @@
   text-shadow: 2px 2px 7px #000000;
   box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   font-size: 8rem;
-  font-family: 'Yeseva One', cursive;
+font-family: 'Yeseva One', cursive;
   transition: all .2s ease-in-out;
 }
 .buttong:hover {

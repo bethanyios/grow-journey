@@ -4,7 +4,6 @@ import './Wishes.css'
 const Wishes = () => {
   return (
     <>
-
     </>
   )
 }

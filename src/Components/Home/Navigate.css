@@ -27,7 +27,7 @@
 
 /* CARE */
 .buttonc {
-  color: #FFB9D2;
+  color: #FF8AB4;
   display: flex;
   flex-direction: column;
   padding: 0.5rem 10rem;
@@ -54,7 +54,7 @@
 
 /* WISHLIST */
 .buttonw {
-  color: #A9BFFB;
+  color: #7B9DFE;
   display: flex;
   flex-direction: column;
   padding: 0.5rem 10rem;

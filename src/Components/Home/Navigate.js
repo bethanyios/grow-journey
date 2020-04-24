@@ -6,6 +6,9 @@ import {ReactComponent as Flowers} from '../../assets/flowers.svg'
 import {
   Link
 } from "react-router-dom";
+
+
+
 const Navigate = () => {
   return (
     <>

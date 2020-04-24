@@ -1,10 +1,9 @@
 import React from 'react';
+import './Care.css';
 
-import './Care.css'
 const Care = () => {
   return (
     <>
-  s
 
     </>
   )

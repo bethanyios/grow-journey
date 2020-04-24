@@ -54,19 +54,25 @@ const zoomOutProperties = {
 
 const Slide1 = () => {
     return (
-      <div className="slide-container">
+      <section className="slide-container">
+      <section className="plant-name">
+      Monstera Adonasii
+      </section>
         <Zoom {...zoomOutProperties} >
           {
             monsteras.map((each, index) => <img key={index} src={each} alt="monstera"/>)
           }
 
         </Zoom>
+        <section className="plant-name">
+        Asparagus Fern
+        </section>
           <Zoom {...zoomOutProperties} >
         {
           ferns.map((each, index) => <img key={index} src={each} alt="monstera"/>)
         }
         </Zoom>
-      </div>
+      </section>
     )
 }
 

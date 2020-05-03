@@ -18,6 +18,13 @@ import fern5 from "./fern/5.jpg"
 import fern6 from "./fern/6.jpg"
 import fern7 from "./fern/7.jpg"
 import fern8 from "./fern/8.jpg"
+import cala1 from "./cala/1.jpg"
+import cala2 from "./cala/2.jpg"
+import cala3 from "./cala/3.jpg"
+import cala4 from "./cala/4.jpg"
+import cala5 from "./cala/5.jpg"
+import cala6 from "./cala/6.jpg"
+import cala7 from "./cala/7.jpg"
 
 
 const monsteras = [
@@ -41,6 +48,16 @@ const ferns = [
   fern6,
   fern7,
   fern8
+];
+
+const calas = [
+  cala1,
+  cala2,
+  cala3,
+  cala4,
+  cala5,
+  cala6,
+  cala7
 ];
 
 const zoomOutProperties = {

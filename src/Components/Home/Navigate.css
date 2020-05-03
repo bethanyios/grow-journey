@@ -1,6 +1,6 @@
-/* GROWTH */
-.buttong {
-  color: #34F1B5;
+
+.navigation {
+  color: #C7FFED;
   display: flex;
   flex-direction: column;
   padding: 0.5rem 10rem;
@@ -10,7 +10,7 @@
   border-radius: 25px;
   border-width: 3px;
   border-color: black;
-  background-color: #022E20;
+  background-color: #034530;
   text-decoration: none;
   text-shadow: 2px 2px 7px #000000;
   box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -18,69 +18,16 @@
 font-family: 'Yeseva One', cursive;
   transition: all .2s ease-in-out;
 }
-.buttong:hover {
+.navigation:hover {
   transform: scale(1.01);
 }
-.buttong:active {
+.navigation:active {
   transform: translateY(3px);
 }
 
-/* CARE */
-.buttonc {
-  color: #FF8AB4;
-  display: flex;
-  flex-direction: column;
-  padding: 0.5rem 10rem;
-  margin: 2rem;
-  justify-content: center;
-  align-items: center;
-  border-radius: 25px;
-  border-width: 3px;
-  border-color: black;
-  background-color: #022E20;
-  text-decoration: none;
-  text-shadow: 2px 2px 7px #000000;
-  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  font-size: 8rem;
-  font-family: 'Yeseva One', cursive;
-  transition: all .2s ease-in-out;
-}
-.buttonc:hover {
-  transform: scale(1.01);
-}
-.buttonc:active {
-  transform: translateY(3px);
-}
-
-/* WISHLIST */
-.buttonw {
-  color: #7B9DFE;
-  display: flex;
-  flex-direction: column;
-  padding: 0.5rem 10rem;
-  margin: 2rem;
-  justify-content: center;
-  align-items: center;
-  border-radius: 25px;
-  border-width: 3px;
-  border-color: black;
-  background-color: #022E20;
-  text-decoration: none;
-  text-shadow: 2px 2px 7px #000000;
-  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  font-size: 8rem;
-  font-family: 'Yeseva One', cursive;
-  transition: all .2s ease-in-out;
-}
-.buttonw:hover {
-  transform: scale(1.01);
-}
-.buttonw:active {
-  transform: translateY(3px);
-}
 
 /* SVG */
-.palm {
+/* .palm {
    right: 0px;
    bottom: 0px;
    background-position: right bottom;
@@ -97,4 +44,18 @@ font-family: 'Yeseva One', cursive;
    bottom: 0px;
    background-position: right bottom;
    position: absolute;
+} */
+
+.home1 {
+  top: 0;
+  left: 1px;
+  background-position: right bottom;
+  position: absolute;
+}
+
+.home2 {
+  bottom: 0;
+  left: 0.5rem;
+  background-position: right bottom;
+  position: absolute;
 }

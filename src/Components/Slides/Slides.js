@@ -18,13 +18,23 @@ import fern5 from "./fern/5.jpg"
 import fern6 from "./fern/6.jpg"
 import fern7 from "./fern/7.jpg"
 import fern8 from "./fern/8.jpg"
+
+import japhro1 from "./japhrolepis/1.jpg"
+import japhro2 from "./japhrolepis/2.jpg"
+import japhro3 from "./japhrolepis/3.jpg"
+import japhro4 from "./japhrolepis/4.jpg"
+import japhro5 from "./japhrolepis/5.jpg"
+import japhro6 from "./japhrolepis/6.jpg"
+import japhro7 from "./japhrolepis/7.jpg"
+import japhro8 from "./japhrolepis/8.jpg"
+
 import cala1 from "./cala/1.jpg"
 import cala2 from "./cala/2.jpg"
 import cala3 from "./cala/3.jpg"
 import cala4 from "./cala/4.jpg"
 import cala5 from "./cala/5.jpg"
 import cala6 from "./cala/6.jpg"
-import cala7 from "./cala/7.jpg"
+
 
 
 const monsteras = [
@@ -50,14 +60,24 @@ const ferns = [
   fern8
 ];
 
+const japhrolepis = [
+  japhro1,
+  japhro2,
+  japhro3,
+  japhro4,
+  japhro5,
+  japhro6,
+  japhro7,
+  japhro8
+];
+
 const calas = [
   cala1,
   cala2,
   cala3,
   cala4,
   cala5,
-  cala6,
-  cala7
+  cala6
 ];
 
 const zoomOutProperties = {
@@ -86,7 +106,23 @@ const Slideshow = () => {
         </section>
           <Zoom {...zoomOutProperties} >
         {
-          ferns.map((each, index) => <img key={index} src={each} alt="monstera"/>)
+          ferns.map((each, index) => <img key={index} src={each} alt="fern"/>)
+        }
+        </Zoom>
+        <section className="japh">
+        Aeschynanthus Japhrolepis
+        </section>
+          <Zoom {...zoomOutProperties} >
+        {
+          japhrolepis.map((each, index) => <img key={index} src={each} alt="japhrolepis"/>)
+        }
+        </Zoom>
+        <section className="plant-name">
+        Calathea Medallion
+        </section>
+          <Zoom {...zoomOutProperties} >
+        {
+          calas.map((each, index) => <img key={index} src={each} alt="calathea"/>)
         }
         </Zoom>
       </section>

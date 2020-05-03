@@ -6,3 +6,11 @@
   font-family: 'Marmelad', sans-serif;
 
 }
+
+.japh {
+  display: flex;
+  justify-content: center;
+  margin-top: 5vh;
+  font-size: 7vh;
+  font-family: 'Marmelad', sans-serif;
+}

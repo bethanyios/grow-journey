@@ -20,6 +20,7 @@ const Navigate = () => {
   <section className="home2">
   <Home2 />
   </section>
+
       <Link to="/growth" className="navigation">Growth</Link>
       <Link to="/care" className="navigation">Care</Link>
 

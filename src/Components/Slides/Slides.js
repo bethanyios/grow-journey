@@ -10,6 +10,7 @@ import monstera7 from "./monstera/7.jpg"
 import monstera8 from "./monstera/8.jpg"
 import monstera9 from "./monstera/9.jpg"
 import monstera10 from "./monstera/10.jpg"
+
 import fern1 from "./fern/1.jpg"
 import fern2 from "./fern/2.jpg"
 import fern3 from "./fern/3.jpg"
@@ -18,6 +19,12 @@ import fern5 from "./fern/5.jpg"
 import fern6 from "./fern/6.jpg"
 import fern7 from "./fern/7.jpg"
 import fern8 from "./fern/8.jpg"
+import fern10 from "./fern/10.jpg"
+import fern11 from "./fern/11.jpg"
+import fern12 from "./fern/12.jpg"
+import fern13 from "./fern/13.jpg"
+import fern14 from "./fern/14.jpg"
+import fern15 from "./fern/15.jpg"
 
 import japhro1 from "./japhrolepis/1.jpg"
 import japhro2 from "./japhrolepis/2.jpg"
@@ -57,7 +64,14 @@ const ferns = [
   fern5,
   fern6,
   fern7,
-  fern8
+  fern8,
+
+  fern10,
+  fern11,
+  fern12,
+  fern13,
+  fern14,
+  fern15
 ];
 
 const japhrolepis = [

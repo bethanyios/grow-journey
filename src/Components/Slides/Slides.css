@@ -11,3 +11,13 @@ img {
   margin: auto;
   margin-top: 5vh;
 }
+
+@media only screen and (max-width: 600px) {
+.slide-container {
+  width: 90vw;
+  }
+  img {
+    max-width: 80vw;
+    max-height: 80vh;
+  }
+}

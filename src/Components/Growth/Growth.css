@@ -14,3 +14,14 @@
   font-size: 7vh;
   font-family: 'Marmelad', sans-serif;
 }
+
+
+@media only screen and (max-width: 600px) {
+.plant-name {
+  font-size: 7vh;
+  text-align: center;
+  }
+.japh {
+  text-align: center;
+  }
+}

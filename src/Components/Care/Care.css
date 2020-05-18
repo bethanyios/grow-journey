@@ -1,4 +1,40 @@
-.plant {
+/* .plant {
 height: 50vh;
 border-radius: 5%;
+} */
+
+.plantcare {
+  display: flex;
+  background-color: #034530;
+  border-radius: 25px;
+  padding: 2rem;
+  flex-direction: column;
+  font-family: 'Marmelad', sans-serif;
+  max-width: 70%;
+  font-size: 3rem;
+margin: auto;
+}
+
+.watering {
+  color: #7B9DFE;
+  padding: 2px;
+  font-size: 20px;
+}
+
+.light {
+  color: #FF9C06;
+  padding: 2px;
+  font-size: 20px;
+}
+
+.mist {
+    color: #F1B3A0;
+    padding: 2px;
+    font-size: 20px;
+}
+
+.pruning {
+  color: #44C668;
+  padding: 2px;
+  font-size: 20px;
 }
